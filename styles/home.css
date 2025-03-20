@@ -1,5 +1,5 @@
 .cover__div {
-  background-image: url("./assets/gradient-bg.svg");
+  background-image: url("../assets/gradient-bg.svg");
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -82,7 +82,7 @@
   font-size: 20px;
 }
 .goals__section {
-  background-image: url("./assets/goal-bg.svg");
+  background-image: url("../assets/goal-bg.svg");
   width: 100%;
   background-size: cover;
   background-position: center;
