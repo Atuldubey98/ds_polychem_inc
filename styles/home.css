@@ -1,0 +1,123 @@
+.cover__div {
+  background-image: url("/assets/gradient-bg.svg");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cover__div > h1 {
+  color: white;
+  font-style: italic;
+  text-align: center;
+  font-size: 40px;
+}
+.cover__clipped {
+  max-width: 500px;
+  padding-block: 60px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.cover__highlight {
+  color: #e30011;
+}
+.show__offCard {
+  padding: 3px;
+  width: 100%;
+  max-width: 200px;
+  border: 1px solid #e30011;
+  border-radius: 10px;
+  text-align: center;
+  background-color: lightgray;
+}
+.show__offMainCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.show__offCardWrapper {
+  margin: 10px;
+  background-color: white;
+  display: grid;
+  gap: 3px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.show__offCardWrapper > h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.show__offCardWrapper > h4 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.show__off {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-block: 50px;
+}
+
+.about__us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  max-width: 60%;
+  gap: 20px;
+}
+.about__usContent > p {
+  color: gray;
+  font-size: 20px;
+}
+.goals__section {
+  background-image: url("/assets/goal-bg.svg");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+#goals{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  width: 100%;
+  max-width: 60%;
+  margin: auto;
+  padding: 30px;
+}
+.goal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+.goal > p{
+  margin: 10px;
+  font-size: small;
+}
+@media screen and (max-width: 550px) {
+  .about__us {
+    display: grid;
+  }
+}

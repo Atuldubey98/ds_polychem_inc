@@ -1,0 +1,19 @@
+header {
+  background-color: whitesmoke;
+  justify-content: space-around;
+}
+
+.header__links {
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+}
+.header__link {
+  justify-content: center;
+}
+
+@media screen and (max-width : 550px) {
+  .header__link > span:nth-child(2){
+    display: none;
+  }
+}
