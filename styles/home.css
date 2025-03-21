@@ -9,6 +9,9 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.cover__clippedWrapper{
+  height: 650px;
+}
 .cover__div > h1 {
   color: white;
   text-align: center;
@@ -73,7 +76,7 @@
   justify-content: center;
   width: 100%;
   margin: auto;
-  max-width: 60%;
+  max-width: 90%;
   gap: 20px;
 }
 .about__usContent > p {
