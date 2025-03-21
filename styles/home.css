@@ -11,14 +11,13 @@
 }
 .cover__div > h1 {
   color: white;
-  font-style: italic;
   text-align: center;
   font-size: 40px;
 }
 .cover__clipped {
   max-width: 500px;
   padding-block: 60px;
-  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  border-radius: 50%;
 }
 
 .cover__highlight {
@@ -89,7 +88,7 @@
   background-repeat: no-repeat;
   text-align: center;
 }
-#goals{
+#goals {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -112,10 +111,14 @@
   height: 150px;
   text-align: center;
 }
-.goal > p{
+.goal > p {
   margin: 10px;
   font-size: small;
 }
+.products__glance > h2{
+  text-align: center;
+}
+
 @media screen and (max-width: 550px) {
   .about__us {
     display: grid;

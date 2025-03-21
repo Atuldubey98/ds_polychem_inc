@@ -11,7 +11,10 @@ header {
 .header__link {
   justify-content: center;
 }
-
+.header__linkSelected{
+  font-weight: bold;
+  color: #01356f;
+}
 @media screen and (max-width : 550px) {
   .header__link > span:nth-child(2){
     display: none;
