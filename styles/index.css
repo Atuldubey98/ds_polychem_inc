@@ -4,6 +4,9 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+.align__center{
+  text-align: center;
+}
 .flex {
   display: flex;
   align-items: center;
