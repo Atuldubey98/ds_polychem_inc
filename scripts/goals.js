@@ -1,7 +1,7 @@
 const goalList = [
-  { icon: "verified", label: "Quality" },
+  { icon: "verified", label: "Standards compliance" },
   { icon: "security", label: "Reliability" },
-  { icon: "support_agent", label: "Customer Focus" },
+  { icon: "support_agent", label: "Customised chemical" },
   { icon: "bolt", label: "Agility" },
   { icon: "volunteer_activism", label: "Social Responsibility" },
   { icon: "gavel", label: "Integrity" },
